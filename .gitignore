@@ -2,3 +2,9 @@ node_modules/
 .env*
 *.key
 *.pem
+
+# Ficam só na máquina (o repo é público: só profile/ vai para o GitHub)
+CONFIG.md
+_src/
+_preview/
+avatar-org.png
