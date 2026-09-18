@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- Imitação da página da org no GitHub para conferir o README (claro, escuro e celular).
+     O build.sh troca <!--README--> pelo HTML que o próprio GitHub gera (gh api markdown).
+     Cabeçalho com os valores do CONFIG.md. Cores e medidas do markdown-body do GitHub (Primer). -->
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>strapassondev</title>
+<style>
+  [data-theme="light"] { --bg:#ffffff; --subtle:#f6f8fa; --fg:#1f2328; --muted:#59636e; --border:#d1d9e0; --border-muted:#d1d9e0b3; --link:#0969da; color-scheme: light; }
+  [data-theme="dark"]  { --bg:#0d1117; --subtle:#010409; --fg:#f0f6fc; --muted:#9198a1; --border:#3d444d; --border-muted:#3d444db3; --link:#4493f8; color-scheme: dark; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif; }
+  svg { fill: currentColor; vertical-align: text-bottom; }
+  .top { height:64px; background:var(--subtle); border-bottom:1px solid var(--border); display:flex; align-items:center; padding:0 32px; gap:12px; font-weight:600; }
+  .top img { width:32px; height:32px; border-radius:6px; }
+  .head { max-width:1216px; margin:0 auto; padding:32px 32px 16px; display:flex; gap:24px; align-items:center; }
+  .head > img { width:100px; height:100px; border-radius:12px; box-shadow: 0 0 0 1px var(--border-muted); }
+  .head h1 { margin:0; font-size:24px; font-weight:600; line-height:1.25; }
+  .head p { margin:4px 0 8px; color:var(--muted); }
+  .meta { display:flex; flex-wrap:wrap; gap:4px 16px; color:var(--muted); font-size:12px; }
+  .meta span { display:inline-flex; gap:4px; align-items:center; }
+  .meta a { color:var(--fg); text-decoration:none; }
+  .tabs { border-bottom:1px solid var(--border); padding:0 32px; display:flex; gap:24px; }
+  .tabs span { padding:8px 0 10px; }
+  .tabs .on { border-bottom:2px solid #fd8c73; font-weight:600; }
+  .wrap { max-width:1216px; margin:24px auto; padding:0 32px; display:flex; gap:24px; }
+  .card { flex:0 0 880px; border:1px solid var(--border); border-radius:6px; }
+  .card .bar { padding:8px 16px; font-size:12px; color:var(--muted); border-bottom:1px solid var(--border); }
+  .side { flex:1; font-size:14px; }
+  .side h2 { font-size:16px; margin:0 0 8px; }
+  .side p { color:var(--muted); margin:0; }
+  /* markdown-body (Primer) */
+  .markdown-body { padding:24px; font-size:16px; line-height:1.5; word-wrap:break-word; }
+  .markdown-body > *:first-child { margin-top:0 !important; }
+  .markdown-body > *:last-child { margin-bottom:0 !important; }
+  .markdown-body p, .markdown-body ul { margin:0 0 16px; }
+  .markdown-body ul { padding-left:2em; }
+  .markdown-body li + li { margin-top:.25em; }
+  .markdown-body strong { font-weight:600; }
+  .markdown-body h3 { font-size:1.25em; font-weight:600; line-height:1.25; margin:24px 0 16px; }
+  .markdown-body a { color:var(--link); text-decoration:underline; text-underline-offset:.2rem; }
+  .markdown-body img { max-width:100%; box-sizing:content-box; background-color:var(--bg); }
+  .markdown-body sub { font-size:75%; line-height:0; position:relative; vertical-align:baseline; bottom:-.25em; }
+  /* celular (~390 px): cabeçalho empilhado, README em largura total */
+  .celular body { width:390px; overflow:hidden; } /* o Edge headless tem largura mínima de janela maior que 390 */
+  .celular .top { padding:0 16px; }
+  .celular .head { flex-direction:column; align-items:flex-start; padding:24px 16px 16px; gap:16px; }
+  .celular .head > img { width:64px; height:64px; border-radius:8px; }
+  .celular .tabs { padding:0 16px; overflow:hidden; }
+  .celular .wrap { padding:0 16px; flex-direction:column; }
+  .celular .card { flex:none; }
+  .celular .markdown-body { padding:16px; }
+</style>
+</head>
+<body>
+  <div class="top"><img src="../avatar-org.png" alt=""> strapassondev</div>
+  <div class="head">
+    <img src="../avatar-org.png" alt="">
+    <div>
+      <h1>Pedro Strapasson</h1>
+      <p>Tecnologia sob medida: sistemas, automações e IA para empresas, a partir da demanda de cada uma. Quem conversa com você é quem constrói.</p>
+      <div class="meta">
+        <span><svg width="16" height="16" viewBox="0 0 16 16"><path d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z"/></svg>Brasil</span>
+        <span><svg width="16" height="16" viewBox="0 0 16 16"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"/></svg><a href="#">https://strapasson.dev</a></span>
+        <span><svg width="16" height="16" viewBox="0 0 16 16"><path d="M1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25v-8.5C0 2.784.784 2 1.75 2ZM1.5 12.251c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25V5.809L8.38 9.397a.75.75 0 0 1-.76 0L1.5 5.809v6.442Zm13-8.181v-.32a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25v.32L8 7.88Z"/></svg><a href="#">pedro@strapasson.dev</a></span>
+      </div>
+    </div>
+  </div>
+  <div class="tabs"><span class="on">Overview</span><span>Repositories</span><span>Projects</span><span>Packages</span><span>People</span></div>
+  <div class="wrap">
+    <div class="card"><div class="bar">README.md</div><article class="markdown-body">
+<!--README-->
+    </article></div>
+    <div class="side"><h2>People</h2><p>This organization has no public members.</p></div>
+  </div>
+</body>
+</html>
