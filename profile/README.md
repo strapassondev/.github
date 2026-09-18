@@ -20,7 +20,7 @@
 
 ### Quem constrói
 
-Pedro Strapasson, formado em Ciência da Computação pela PUCPR, com Menção Honrosa no Prêmio Marcelino Champagnat, e no mercado desde 2018. A trajetória inclui anos em big data e sistemas críticos de grande porte para órgãos públicos e secretarias de fazenda estaduais, com alto volume de dados e processamento em tempo real.
+Pedro Strapasson desenvolve e integra sistemas sob medida, e quem conversa com o cliente é quem constrói. Cada projeto começa por um levantamento da operação e segue em entregas curtas, com documentação, versionamento e uma passagem organizada para quem for cuidar do sistema. Por trás está uma trajetória no mercado desde 2018, com anos em big data e sistemas críticos de grande porte para órgãos públicos, com alto volume de dados e processamento em tempo real.
 
 ### Contato
 
