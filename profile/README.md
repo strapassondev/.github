@@ -26,6 +26,6 @@ Pedro Strapasson desenvolve e integra sistemas sob medida, e quem conversa com o
 
 Conte a sua demanda. Toda mensagem é lida pessoalmente e respondida. Atendimento remoto ou presencial, conforme o projeto.
 
-[strapasson.dev](https://strapasson.dev) · [pedro@strapasson.dev](mailto:pedro@strapasson.dev)
+[strapasson.dev](https://strapasson.dev) · [pedro@strapasson.dev](mailto:pedro@strapasson.dev) · [Instagram](https://www.instagram.com/strapasson.dev/)
 
 <sub>PEDRO STRAPASSON DESENVOLVIMENTO DE SISTEMAS LTDA · CNPJ 61.174.919/0001-96</sub>
