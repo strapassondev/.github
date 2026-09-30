@@ -58,7 +58,7 @@
 </p>
 
 <p>
-<a href="https://wa.me/5541988736556?text=Ol%C3%A1%2C%20Pedro.%20Vim%20pelo%20GitHub.%20O%20que%20eu%20preciso%20resolver%20%C3%A9%3A%20"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/whatsapp-escuro.svg"><img alt="Chamar o Pedro no WhatsApp" src="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/whatsapp-claro.svg" width="315"></picture></a>
+<a href="https://wa.me/5541999180290?text=Ol%C3%A1%2C%20Pedro.%20Vim%20pelo%20GitHub.%20O%20que%20eu%20preciso%20resolver%20%C3%A9%3A%20"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/whatsapp-escuro.svg"><img alt="Chamar o Pedro no WhatsApp" src="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/whatsapp-claro.svg" width="315"></picture></a>
 <br>
 <a href="https://strapasson.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/site-escuro.svg"><img alt="strapasson.dev" src="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/site-claro.svg" width="171"></picture></a>
 <a href="https://strapasson.dev/demo/contabilidade/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/portal-escuro.svg"><img alt="Demonstração" src="https://raw.githubusercontent.com/strapassondev/.github/HEAD/profile/contato/portal-claro.svg" width="167"></picture></a>
